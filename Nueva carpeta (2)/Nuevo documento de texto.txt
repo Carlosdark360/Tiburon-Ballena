@@ -1,0 +1,52 @@
+  .social{
+   position:fixed(top);
+   left:auto;
+   top:40%;
+   border-radius:10px 10px;
+  }
+  
+  .social ul li a{
+   display:inline-block;
+   background:white;
+   padding:10px 15px;
+   text-decoration:none;
+   -webkit-transition:all 500ms;
+   -o-transition:all 500ms;
+   transitions:all 500ms;
+  }
+  
+  .social > li{
+  float:left;
+  }
+  
+  .social ul li .icon-facebook{
+  background:#000033;
+  }
+  .social ul li .icon-twitter{
+  background:#00abf0;
+  }
+  .social ul li .icon-instagram{
+  background:#990099;
+  }
+  
+  .social ul li a:hover{
+   padding: 10px 30px;
+   }
+
+ <div class="social">   
+      <ul>   
+        <li>
+        <a href="https://www.facebook.com" target="_blank" class="icon-facebook">
+          <img src="Imagenes/redes%20sociales/facebook.ico" alt="facebook.ico, 107kB" title="Facebook" border="0" height="40" width="40"></a>
+        </li>       
+        <li>
+        <a href="https://www.twitter.com" target="_blank" class="icon-twitter">
+          <img src="Imagenes/redes%20sociales/twitter.ico" alt="twitter.ico, 129kB" title="Twitter" border="0" height="40" width="40"></a>
+        </li>       
+        <li>
+        <a href="https://www.instagram.com" target="_blank" class="icon-instagram">
+          <img src="Imagenes/redes%20sociales/instagram.ico" alt="instagram.ico, 175kB" title="Instagram" border="0" height="40" width="40"></a>
+        </li>       
+      </ul>   
+    </div>
+
